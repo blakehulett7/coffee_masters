@@ -50,3 +50,9 @@ p {
 .darkblue {
     background-color: darkblue;
 }
+
+.border {
+    background-color: blue;
+    padding: 5px;
+    height: 100px
+}
