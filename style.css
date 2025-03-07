@@ -5,3 +5,30 @@
 .head-banner {
     
 }
+
+h1 {
+    color: crimson;
+    font-size: 60px;
+    font-weight: normal;
+    text-decoration: underline;
+    text-transform: uppercase;
+    border: 3px solid grey;
+    text-align: right;
+    background: lightgrey;
+    font-style: italic;
+}
+
+p {
+    font-style: italic;
+}
+
+.upper {
+    color: seagreen;
+    font-weight: bold;
+}
+
+.lower {
+    color: purple;
+    border: 1px solid yellow;
+    text-align: center;
+}

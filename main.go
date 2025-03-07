@@ -1,0 +1,20 @@
+package main
+
+import (
+	"fmt"
+	"net/http"
+)
+
+func main() {
+	fmt.Println("Christ is King!")
+
+	router := http.NewServeMux()
+
+	router.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) { http.ServeFile(w, r, r.URL.Path[1:]) })
+
+	server := &http.Server{
+		Addr:    ":3030",
+		Handler: router,
+	}
+	server.ListenAndServe()
+}
