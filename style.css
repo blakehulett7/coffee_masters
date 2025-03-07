@@ -27,8 +27,26 @@ p {
     font-weight: bold;
 }
 
+.upper:hover {
+    text-decoration: underline;
+}
+
 .lower {
     color: purple;
     border: 1px solid yellow;
     text-align: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.darkblue {
+    background-color: darkblue;
 }
