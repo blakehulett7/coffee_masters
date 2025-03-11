@@ -28,15 +28,18 @@
     justify-content: space-around;
     padding: 10px;
     list-style: none;
+    margin: 0;
 }
 
 .story {
-    border: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
     padding: 8px;
 }
 
 .story-1 {
     grid-area: story-1;
+    border-left: solid black 2px;
 }
 
 .story-2 {
@@ -49,6 +52,7 @@
 
 .story-4 {
     grid-area: story-4;
+    border-left: solid black 2px;
 }
 
 .story-5 {
