@@ -95,3 +95,34 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+        "top-bar side-bar"
+        "body footer-area";
+}
+
+.top-bar {
+    grid-area: top-bar;
+    background-color: blue;
+    padding: 10px;
+}
+
+.side-bar {
+    grid-area: side-bar;
+    background-color: yellow;
+    padding: 40px;
+}
+
+.body {
+    grid-area: body;
+    background-color: red;
+    padding: 40px;
+}
+
+.footer-area {
+    grid-area: footer-area;
+    background-color: green;
+    padding: 40px;
+}
