@@ -39,6 +39,8 @@ p {
 
 .flex-container {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .box {
@@ -55,6 +57,11 @@ p {
 .wide-box {
     height: 100px;
     width: 200px;
+}
+
+.small-box {
+    height: 50px;
+    width: 50px;
 }
 
 .blue {
@@ -82,7 +89,8 @@ p {
 .border {
     background-color: blue;
     padding: 5px;
-    height: 100px
+    height: 100px;
+    margin: 5px;
 }
 
 .text {
