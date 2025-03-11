@@ -99,14 +99,15 @@ p {
 .grid {
     display: grid;
     grid-template-areas: 
-        "top-bar side-bar"
-        "body footer-area";
+        "top-bar top-bar side-bar"
+        "body body side-bar"
+        ". footer-area footer-area"
 }
 
 .top-bar {
     grid-area: top-bar;
     background-color: blue;
-    padding: 10px;
+    padding: 40px;
 }
 
 .side-bar {
