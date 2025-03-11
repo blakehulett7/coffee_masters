@@ -47,6 +47,16 @@ p {
     margin: 10px;
 }
 
+.tall-box {
+    height: 200px;
+    width: 100px;
+}
+
+.wide-box {
+    height: 100px;
+    width: 200px;
+}
+
 .blue {
     background-color: blue;
     border: 4px solid darkblue;
@@ -55,6 +65,18 @@ p {
 .darkblue {
     background-color: darkblue;
     border: 4px solid blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.red {
+    background-color: red;
 }
 
 .border {
