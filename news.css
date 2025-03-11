@@ -27,6 +27,7 @@
     border: solid black 2px;
     justify-content: space-around;
     padding: 10px;
+    list-style: none;
 }
 
 .story {
@@ -52,4 +53,23 @@
 
 .story-5 {
     grid-area: story-5;
+}
+
+.article-title {
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.site-section {
+    font-weight: bold;
+}
+
+.section-link {
+    color: grey;
+    text-decoration: none;
+}
+
+.section-link:hover {
+    text-decoration: underline;
 }
