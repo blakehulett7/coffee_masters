@@ -7,3 +7,19 @@
 }
 
 
+
+.brand-header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    border: solid black 2px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.story {
+    border: solid black 2px;
+}
